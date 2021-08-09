@@ -1,0 +1,73 @@
+@media only screen and (max-width: 780px) {
+    
+    .hero{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+    }
+
+    .logo-img{
+        max-width: 140px;
+        margin-left: -5%;
+        /* margin-top: -10% */
+    }
+    nav ul{
+        display: none;
+    }
+    
+
+    button{
+        background: #efefef;
+        height: 18px;
+        width: 37px;
+        border-radius: 20px;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+        transition: background 0.5s;
+        margin-left: 175px;
+    }
+    
+    button span{
+        display: block;
+        background: #999;
+        height: 16px;
+        width: 16px;
+        border-radius: 50%;
+        margin-left: 2px;
+        transition: background 0.5s, margin-left 0.5s;
+    }
+    .active span{
+        background: #fff;
+        margin-left: 23px;
+    }
+    
+    .lamp-container{
+        top: -20px;
+    }
+    .lamp{
+        width: 90%;
+    }
+    
+    .light{
+        top: 97%;
+        left: 45%;
+        transform: translate(-50%);
+        width: 700px;
+    
+    }
+    .text-container{
+        max-width: 400px;
+        margin-top: 80%;
+        margin-left: 5%;
+    }
+
+    .text-container h1{
+        font-size: 50px;
+        font-weight: 200;
+    }
+    .text-container p{
+        font-size: 15px;
+    }
+    
+  }
